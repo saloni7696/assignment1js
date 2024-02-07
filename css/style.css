@@ -1,0 +1,71 @@
+body {
+     background-color: #ffd900; /* changing backgroundcolor */
+}
+/* styling heading tags  */
+h1,h2 {
+    text-align: center;
+}
+/* styling section 1 */
+.s1 {
+    display:grid;
+    grid-template-columns: repeat(5 ,20%);
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 10px;
+}
+/* styling section 2  */
+.s2{
+    display :flex;
+    gap:20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+/* styling all the buttons  */
+button {
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* styling all the p tags  */
+p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* coloring the background of buttons by thee classes */
+#noun1{
+    background-color: rgb(225, 0, 255);
+}
+#verb{
+    background-color: rgb(38, 221, 221);
+}
+#adjective{
+    background-color: rgb(29, 230, 29);
+}
+#noun2{
+    background-color: #ff9900;
+}
+#setting{
+    background-color: rgb(248, 128, 148);
+}
+#playback{
+    background-color: red;
+}
+#random{
+    background-color: blue;
+}
+#reset {
+    background-color: #ff7300;
+}
